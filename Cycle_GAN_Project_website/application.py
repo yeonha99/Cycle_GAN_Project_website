@@ -16,7 +16,7 @@ def apply():
 def upload_done():
     uploaded_files=request.files["file"]
     filename = secure_filename(uploaded_files.filename)
-    real="static/img/{}.jpg".format(filename)
+    real="static/img/{}".format(filename)
     uploaded_files.save(real)
     return render_template("test.html",url=real)
 
