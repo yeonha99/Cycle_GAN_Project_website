@@ -4,5 +4,5 @@
 
 <h2>Stack<h2>
 백엔드:Flask,python<br>
-프론트 엔드:notion 활용,tml<br>
+프론트 엔드:notion 활용,Html<br>
 서버:구름(goorm)
